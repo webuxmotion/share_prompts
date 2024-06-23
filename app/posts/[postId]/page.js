@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function page({ params }) {
   return (
-    <div>{params.postId}</div>
+    <div>Page id: {params.postId}</div>
   )
 }
